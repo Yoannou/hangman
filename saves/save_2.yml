@@ -1,0 +1,26 @@
+--- !ruby/object:Game
+word:
+- E
+- N
+- S
+- H
+- R
+- I
+- N
+- E
+player:
+- E
+- _
+- _
+- _
+- _
+- _
+- _
+- E
+corpse: !ruby/object:Corpse
+  wrong_count: 0
+  corpse: "\n                _______\n                 |    |\n                 0
+    \   |\n               --|--  |\n                / \\   |\n               =======|\n
+    \                    /-\\\n                     "
+wrong_count: 4
+game_over: false
